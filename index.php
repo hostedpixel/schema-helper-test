@@ -3,7 +3,7 @@
  * Plugin Name: Schema Helper
  * Plugin URI: 
  * Description: Removes schema attributes and classes from specific elements and disables Beaver Builder schema
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: 
  * License: GPL v2 or later
  * Text Domain: schema-helper
@@ -77,7 +77,7 @@ class SchemaHelper {
             $transient->response[$plugin_file] = (object) array(
                 'slug' => 'schema-helper',
                 'new_version' => $github_response['version'],
-                'url' => 'https://github.com/yourusername/schema-helper',
+                'url' => 'https://github.com/hostedpixel/schema-helper-test',
                 'package' => $github_response['download_url'],
                 'requires' => '5.0',
                 'requires_php' => '7.4',
